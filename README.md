@@ -18,6 +18,6 @@ The traditional approach for information retrieval, such as `BM25`, relies on wo
 
 ![Dask](static/dask.png) ![Spacy](static/spacy.jpg) 
 ![Pandas](static/pandas(2).png) ![faiss](static/faiss.png) 
-
+![Gensim](static/gensim.png) 
 
 
