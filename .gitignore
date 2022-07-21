@@ -10,6 +10,7 @@ data_loading.ipynb
 README.md
 LICENSE
 data/word2vec
+data/contractions.txt
 text_preprocessing.ipynb
 # C extensions
 *.so
