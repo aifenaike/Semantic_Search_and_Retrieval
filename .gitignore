@@ -9,9 +9,7 @@ static
 data_loading.ipynb
 README.md
 LICENSE
-data/word2vec
-data/contractions.txt
-data/train_results.csv
+data
 text_preprocessing.ipynb
 # C extensions
 *.so
