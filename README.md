@@ -5,9 +5,10 @@ A Query-Document pair ranking system using transformers based embeddings (BERT).
 ### Semantic search
 Have you ever wondered how you can create state-of-the-art sentence embeddings with Transformers and use them in downstream tasks like information retrieval?
 
-In the last 5 years, Natural Language Processing (NLP) has leaped forward with the introduction of the transformer architecture, which brought large improvements to NLP applications. One such application is semantic matching and search. Semantic search applies user intent, context, and conceptual meanings to match a user query to the corresponding content. It uses vector search and machine learning to return results that aim to match a user’s query, even when there are no word matches.
-These components work together to retrieve and rank results based on meaning.
-In this project, I will illustrate how to build a semantic search engine using state-of-the-art transformer-based deep learning models. In this workflow, we will build a system for accessing and retrieving the most appropriate information from text based on a particular query given by the user, with the help of context-based indexing.
+In the last 5 years, Natural Language Processing (NLP) has leaped forward with the introduction of the transformer architecture, which brought large improvements to NLP applications. One of such application is semantic matching and search. Semantic search applies user intent, context, and conceptual meanings to match a user query to the corresponding content. It uses vector search and machine learning to return results that aim to match a user’s query, even when there are no word matches.
+These components work together to retrieve and rank results based on meaningand proximity to a user-defined query.
+
+In this project, I will illustrate how to build a semantic search engine using state-of-the-art transformer-based deep learning models. In  implementing this workflow, we will build a system for accessing and retrieving the most appropriate information from text based on a particular query given by the user, with the help of context-based indexing.
 
 ![Process Workflow](static/workflow.png)
 
