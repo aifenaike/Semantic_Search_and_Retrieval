@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+#exceptions
+static
+data_loading.ipynb
+README.md
+LICENSE
+data/word2vec/test_embeddings.npy
 # C extensions
 *.so
 
@@ -127,3 +134,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
