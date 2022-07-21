@@ -9,7 +9,8 @@ static
 data_loading.ipynb
 README.md
 LICENSE
-data/word2vec/test_embeddings.npy
+data/word2vec
+text_preprocessing.ipynb
 # C extensions
 *.so
 
