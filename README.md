@@ -17,6 +17,23 @@ Whether you want to sift through millions of social media posts, extract informa
 
 The traditional approach for information retrieval, such as `BM25`, relies on word frequencies within indexed documents and on key terms within the query to estimate the relevance of said documents to the query. This approach has two key limitations that affect its accuracy. Documents that do not contain the keywords but include terms that are semantically similar to those keywords may be missed. For a pool of documents containing different languages, and especially languages with different scripts and alphabets, the keyword approach would fail. Hence the need for better architectures or structures.
 
+
+### Results
+Evaluation measures for an information retrieval system are used to assess how well the search results satisfies the user's query intent. Here I employed **The Mean Average Precision (map)** as the evaluation metric.
+
+
+- Precision @ k: For modern (web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them. Precision at k documents (P@k) is still a useful metric (e.g., P@10 or "Precision at 10" corresponds to the number of relevant results among the top 10 retrieved documents).
+- Mean average precision (MAP): for a set of queries, it is the mean of the average precision scores for each query.
+  - Map@1: 0.896551
+  - Map@2: 0.870182
+  - Map@3: 0.845616
+  - Map@4: 0.826276
+  - Map@5: 0.809175
+  - Map@6: 0.793762
+  - Map@7: 0.779345
+  
+![MAP](static/MAP.png)
+
 ### Requirements (Libraries & Packages)
 
 ![Dask](static/dask.png) ![Spacy](static/spacy.jpg) 
