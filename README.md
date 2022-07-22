@@ -17,6 +17,8 @@ Whether you want to sift through millions of social media posts, extract informa
 
 The traditional approach for information retrieval, such as `BM25`, relies on word frequencies within indexed documents and on key terms within the query to estimate the relevance of said documents to the query. This approach has two key limitations that affect its accuracy. Documents that do not contain the keywords but include terms that are semantically similar to those keywords may be missed. For a pool of documents containing different languages, and especially languages with different scripts and alphabets, the keyword approach would fail. Hence the need for better architectures or structures.
 
+### Dataset
+In this project, we will work with real-world data and I will be making use of the document ranking dataset from [TREC 2019 Deep Learning Track](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019). The dataset consists of 367,013 queries and 3.2 million documents. However, due to the unavailability of resources such as GPU and time, we will work with only a subset of this data.
 
 ### Results
 Evaluation measures for an information retrieval system are used to assess how well the search results satisfies the user's query intent. Here I employed **The Mean Average Precision (map)** as the evaluation metric.
