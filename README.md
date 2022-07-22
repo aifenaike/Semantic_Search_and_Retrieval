@@ -1,4 +1,4 @@
-# Information_Retrieval_System_BERT
+# Semantic_Search_and_Retrieval
 A Query-Document pair ranking system using GloVe embeddings and RankCosine.
 
 
