@@ -5,7 +5,6 @@ __pycache__/
 
 
 #exceptions
-static
 data_loading.ipynb
 README.md
 LICENSE
@@ -14,6 +13,7 @@ text_preprocessing.ipynb
 search_space_utils.
 preprocessing_utils.py
 models
+Ranking & Evaluation.ipynb
 # C extensions
 *.so
 
