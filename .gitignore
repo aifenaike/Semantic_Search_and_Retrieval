@@ -11,6 +11,7 @@ README.md
 LICENSE
 data
 text_preprocessing.ipynb
+search_space_utils.py
 # C extensions
 *.so
 
