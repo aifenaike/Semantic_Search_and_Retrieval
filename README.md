@@ -23,7 +23,7 @@ Evaluation measures for an information retrieval system are used to assess how w
 
 
 - Precision @ k: For modern (web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them. Precision at k documents (P@k) is still a useful metric (e.g., P@10 or "Precision at 10" corresponds to the number of relevant results among the top 10 retrieved documents).
-- Mean average precision (MAP): for a set of queries, it is the mean of the average precision scores for each query.
+- Mean average precision (MAP): for a set of queries, it is the mean of the average precision scores for each query. The mean average  precision score ranges from 0 to 1. Below are the map values obtained for the training set during the top@k searches.
   - Map@1: 0.896551
   - Map@2: 0.870182
   - Map@3: 0.845616
