@@ -15,6 +15,7 @@ search_space_utils.
 preprocessing_utils.py
 models
 Ranking & Evaluation.ipynb
+requirements.txt
 # C extensions
 *.so
 
