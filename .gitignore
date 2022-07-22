@@ -9,6 +9,7 @@ data_loading.ipynb
 README.md
 LICENSE
 data
+static
 text_preprocessing.ipynb
 search_space_utils.
 preprocessing_utils.py
