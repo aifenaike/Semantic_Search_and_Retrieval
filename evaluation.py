@@ -21,6 +21,13 @@ class Evaluate():
 
 
     def get_truth_mapping(self,retrieved_results,qid):
+        """
+        Get the true mapping, All retrieved document are termed relevant, but the ground truth value for its relevance must be determined. 
+        Parameters
+        ----------
+        :param retrieved_results: search results {a dictionary of document ids retrieved during seearch}.
+        :param qid: The query id.
+        """
         retrieved_df = pd.DataFrame(retrieved_results)
         retrieved_df['relevance']=1
         result_df=retrieved_df[['docid','relevance']]
@@ -43,6 +50,13 @@ class Evaluate():
         return ground_truth, prediction_map
 
     def average_precision(self,ground_truth,predicted_docs):
+        """
+        Get the precision until desired search number k and average the values.
+        -----------------------------------------------------------------------
+        :param ground_truth: ground truth for search results {a dictionary of document ids retrieved and ground truth}.
+        :param predicted_docs: retrieved documents.
+        Both parameters are the outputs of the `get_truth_mapping` function.
+        """
         truth = list(ground_truth.values())
         pred = list(predicted_docs.values())
         precision=[]
@@ -52,6 +66,11 @@ class Evaluate():
         return np.mean(precision)
 
     def mean_average_precision(self,corpus,doc_embeddings):
+        """
+        Get mean average precision
+        :param corpus: dataset from which we intend to make a search.
+        :param doc_embeddings: embeddings of all documents to be searched through,
+        """
         q= self.query[['qid','query']].values
         qids,queries = q[:,0],q[:,1]
         average_precision =[]
