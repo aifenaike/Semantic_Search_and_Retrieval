@@ -1,5 +1,5 @@
 # Semantic_Search_and_Retrieval
-A Query-Document pair ranking system using GloVe embeddings and RankCosine.
+A Query-Document pair ranking system using GloVe embeddings and RankCosine..
 
 
 ### Semantic search
